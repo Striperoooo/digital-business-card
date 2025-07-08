@@ -17,10 +17,10 @@ export default function Info() {
 
             <div className='link-container'>
                 <a className='btn-link email' href="#">
-                    <MdEmail /> Email
+                    <MdEmail className='icon' /> Email
                 </a>
                 <a className='btn-link linkedin' href="#">
-                    <FaLinkedin />LinkedIn
+                    <FaLinkedin className='icon' />LinkedIn
                 </a>
             </div>
 
