@@ -1,12 +1,75 @@
-# React + Vite
+# 📇 Digital Business Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, mobile-focused React app for showcasing my professional profile, skills, interests, and social links—all in a clean, responsive digital business card format.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Modular React Components:**  
+  Includes `Info`, `About`, `Interests`, and `Footer` for clear separation of concerns and easy customization.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Responsive Mobile Design:**  
+  Optimized for mobile screens with a max-width card layout and adaptive image scaling.
+
+- **Social Media Integration:**  
+  Clickable icons for Twitter, Facebook, Instagram, and GitHub in the footer.
+
+- **Accessible & Interactive:**  
+  Uses `react-icons` for scalable SVG icons, with keyboard and screen reader-friendly markup.
+
+- **Consistent Styling:**  
+  Centralized CSS with utility classes for padding, button/link effects, and cohesive color themes.
+
+---
+
+## 🛠️ Getting Started
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/digital-business-card.git
+   cd digital-business-card
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 🗂️ Project Structure
+
+```
+src/
+  components/
+    About.jsx
+    Footer.jsx
+    Info.jsx
+    Interests.jsx
+  assets/
+    (profile photo and social icons)
+  App.jsx
+  App.css
+  index.css
+  main.jsx
+public/
+  index.html
+```
+
+---
+
+## 📦 Dependencies
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+
+  
