@@ -36,7 +36,7 @@ header {
     max-width: 350px;
     height: auto;
     /* border-radius: 20px; */
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 3px 3px;
 }
 
 .name-container {
@@ -64,6 +64,17 @@ header {
     margin: 0.50rem 0 0.990rem 0;
     font-size: 0.64rem;
     color: #F5F5F5;
+    transition: opacity 0.2s, text-decoration 0.2s;
+}
+
+.website-link:hover,
+.website-link:focus {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.website-link:active {
+    opacity: 0.5;
 }
 
 .link-container {
@@ -92,11 +103,35 @@ header {
 .email {
     background-color: #FFFFFF;
     color: #1E1F26;
+    transition: opacity 0.2s, text-decoration 0.2s;
 }
 
 .linkedin {
     background-color: #5093E2;
     color: #FFFFFF;
+    transition: opacity 0.2s, text-decoration 0.2s;
+}
+
+.email:hover,
+.email:focus {
+    opacity: 0.85;
+    background-color: #f0f0f0;
+}
+
+.email:active {
+    opacity: 0.7;
+    background-color: #e0e0e0;
+}
+
+.linkedin:hover,
+.linkedin:focus {
+    opacity: 0.85;
+    background-color: #357abD;
+}
+
+.linkedin:active {
+    opacity: 0.7;
+    background-color: #285c99;
 }
 
 /* about and interest component */
@@ -120,4 +155,37 @@ header {
     font-size: 0.65rem;
     color: #DCDCDC;
     line-height: 1.5;
+}
+
+/* footer component */
+
+footer {
+    margin-top: 3rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.25rem 0;
+    background: #161619;
+
+}
+
+.footer-content>a>img {
+    width: 25px;
+    height: 25px;
+    max-width: 100%;
+    transition: opacity 0.2s;
+    cursor: pointer;
+}
+
+.footer-content>a:hover>img,
+.footer-content>a:focus>img {
+    opacity: 0.7;
+}
+
+.footer-content>a:active>img {
+    opacity: 0.5;
 }

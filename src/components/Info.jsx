@@ -7,7 +7,7 @@ export default function Info() {
     return (
 
         <header>
-            <img className='photo' src={photo} alt="Portrait of Charles Villanueva" />
+            <img className='photo' src={photo} alt="Portrait of Charles Deiniel Villanueva" draggable="false" />
             <div className='name-container content-padding'>
                 <h1 className='name'>Charles Deiniel Villanueva</h1>
                 <p className='title'>Frontend Developer</p>
