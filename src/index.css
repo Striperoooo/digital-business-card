@@ -100,3 +100,20 @@ header {
 }
 
 /* about component */
+
+.about-container {
+    margin-top: 2.06rem;
+}
+
+.heading-style {
+    margin-bottom: 0.315rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #F5F5F5;
+}
+
+.paragraph-style {
+    font-size: 0.65rem;
+    color: #DCDCDC;
+    line-height: 1.5;
+}
