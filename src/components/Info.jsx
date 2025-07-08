@@ -8,14 +8,14 @@ export default function Info() {
 
         <header>
             <img className='photo' src={photo} alt="Portrait of Charles Villanueva" />
-            <div className='name-container'>
+            <div className='name-container content-padding'>
                 <h1 className='name'>Charles Deiniel Villanueva</h1>
                 <p className='title'>Frontend Developer</p>
                 <a className='website-link' href="#">charlesvillanueva.website</a>
             </div>
 
 
-            <div className='link-container'>
+            <div className='link-container content-padding'>
                 <a className='btn-link email' href="#">
                     <MdEmail className='icon' /> Email
                 </a>
