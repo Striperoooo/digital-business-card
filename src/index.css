@@ -99,10 +99,14 @@ header {
     color: #FFFFFF;
 }
 
-/* about component */
+/* about and interest component */
 
 .about-container {
     margin-top: 2.06rem;
+}
+
+.interests-container {
+    margin-top: 1.25rem;
 }
 
 .heading-style {
