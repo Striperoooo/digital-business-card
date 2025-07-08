@@ -1,7 +1,7 @@
-import twitter from '../assets/Twitter icon.png';
-import facebook from '../assets/Facebook Icon.png';
-import instagram from '../assets/Instagram Icon.png';
-import github from '../assets/GitHub Icon.png';
+import twitter from '../assets/Twitter-icon.png';
+import facebook from '../assets/facebook-icon.png';
+import instagram from '../assets/instagram-icon.png';
+import github from '../assets/github-icon.png';
 
 export default function Footer() {
     return (
