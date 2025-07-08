@@ -121,3 +121,26 @@ header {
     color: #DCDCDC;
     line-height: 1.5;
 }
+
+/* footer component */
+
+footer {
+    margin-top: 3rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.25rem 0;
+    background: #161619;
+
+}
+
+.footer-content>a>img {
+    width: 25px;
+    height: 25px;
+    max-width: 100%;
+    height: auto;
+}
