@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #1A1B21;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+.photo {
+    width: 317px;
+    height: 317px;
+    border-radius: 20px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 1.563rem;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #F3BF99;
+}
+
+.website-link {
+    font-size: 0.64rem;
+    color: #F5F5F5;
+}
+
+.btn-link {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 0.56rem 1.781rem;
+}
+
+.email {
+    background-color: #FFFFFF;
+    color: #1A1B21;
+}
+
+.linkedin {
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
