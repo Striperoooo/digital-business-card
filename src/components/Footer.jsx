@@ -1,4 +1,4 @@
-import twitter from '../assets/Twitter-icon.png';
+import twitter from '../assets/twitter-icon.png';
 import facebook from '../assets/facebook-icon.png';
 import instagram from '../assets/instagram-icon.png';
 import github from '../assets/github-icon.png';
