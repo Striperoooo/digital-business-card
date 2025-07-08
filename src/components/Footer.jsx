@@ -8,16 +8,16 @@ export default function Footer() {
         <>
             <footer>
                 <div className='footer-content'>
-                    <a href="">
+                    <a href="#">
                         <img src={twitter} alt="Twitter logo" />
                     </a>
-                    <a href="">
+                    <a href="#">
                         <img src={facebook} alt="Facebook logo" />
                     </a>
-                    <a href="">
+                    <a href="#">
                         <img src={instagram} alt="Instagram logo" />
                     </a>
-                    <a href="">
+                    <a href="#">
                         <img src={github} alt="GitHub logo" />
                     </a>
                 </div>
