@@ -4,7 +4,7 @@ A modern, mobile-focused React app for showcasing my professional profile, skill
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 - **Modular React Components:**  
   Includes `Info`, `About`, `Interests`, and `Footer` for clear separation of concerns and easy customization.
@@ -20,6 +20,12 @@ A modern, mobile-focused React app for showcasing my professional profile, skill
 
 - **Consistent Styling:**  
   Centralized CSS with utility classes for padding, button/link effects, and cohesive color themes.
+
+---
+
+## 🚀 Live Demo
+
+[View the live site on Netlify](https://gr-digital-business-card.netlify.app/)
 
 ---
 
